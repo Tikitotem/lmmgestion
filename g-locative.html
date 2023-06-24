@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Page Title</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-lp">
+    <a class="navbar-brand" href="index.html">LMM Gestion</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color:black">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="g-administrative.html">Gestion administrative</a>
+            <a class="dropdown-item" href="g-locative.html">Gestion locative</a>
+            <a class="dropdown-item" href="g-spectacle.html">Gestion spectacle</a>
+            <!-- <div class="dropdown-divider"></div> -->
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Contenu principal -->
+  <main>
+
+    <div class="g-locative">
+      <h1>Gestion locative saisonnière</h1><br><br>
+
+      <img src="https://unsplash.it/400/300"><br><br>
+
+      <p style="color: #52B2BF; font-size: 25px;";>Vous êtes propriétaire d'une maison, d'un appartement dans le Morbihan.</p>
+
+      <p>Vous souhaitez le louer à la semaine ou pour des séjours de courte durée? Il peut être compliqué de jongler
+        avec les arrivées. Vous avez besoin d'une aide ponctuelle ou plus régulière?</p><br>
+
+        <p>Je mets en ligne votre annonce sur les plateformes (Booking, Airbnb, Leboncoin...). Je gère les plannings de
+          réservations.</p><br>
+
+        <p>Je m'occupe de l'accueil des locataires avec remise des clés et j'effectue les formalités d'accueil (caution,
+          taxe de séjour...). Il peut être judicieux d'installer une boîte à clés si vous avez plusieurs logements.</p><br>
+        
+        <p>A leur départ, j'effectue l'état des lieux.</p>
+      </p>
+
+    </div>
+
+  </main>
+  <br><br><br><br><br><br>
+
+  <footer>
+    <a class="mentions-legales" href="">Mentions légales</a>
+  </footer>
+
+  <script>
+    function openPopup() {
+      document.getElementById("contactPopup").style.display = "flex";
+    }
+    function closePopup() {
+      document.getElementById("contactPopup").style.display = "none";
+    }
+    function submitForm() {
+      closePopup();
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

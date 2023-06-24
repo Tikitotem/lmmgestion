@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  size: 1500px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #E4C2C1;
+}
+
+footer p {
+  color: black;
+}
+
+.mentions-legales {
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  text-decoration: none;
+}
+
+header {
+  color: black;
+  background-color: #E4C2C1;
+  padding: 10px;
+  height: 30px;
+}
+
+.navbar {
+  background-color: #E4C2C1;
+}
+
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  flex-direction: row;
+
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+
+  background-color: #D1A080;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.appel-services,
+.faciliter-la-vie,
+.fonctionnement {
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/* texte header */
+
+.navbar-collapse {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Bouton services */
+
+.dropdown-menu {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.intro {
+  margin-left: 30px;
+}
+
+
+.g-locative {
+  text-align: left;
+  margin: 0 auto;
+  width:50%;
+}
+
+.g-locative img {
+  display: block;
+  margin: 0 auto;
+}
+
+.g-locative p {
+  text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

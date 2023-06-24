@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Page Title</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-lp">
+    <a class="navbar-brand" href="index.html">LMM Gestion</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Accueil <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only"></span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color:black">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="g-administrative.html">Gestion administrative</a>
+            <a class="dropdown-item" href="g-locative.html">Gestion locative</a>
+            <a class="dropdown-item" href="g-spectacle.html">Gestion spectacle</a>
+            <!-- <div class="dropdown-divider"></div> -->
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Contenu principal -->
+  <main>
+    <h1>Accueil</h1><br><br><br><br><br><br>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="appel-services">
+          <h1>Pourquoi faire appel à mes services?</h1>
+          <ul>
+            <li>Vous souhaitez libérer du temps pour vous consacrer totalement à votre activité.</li>
+            <li>Vous n'avez pas les moyens financiers ou le volume de travail suffisant pour embaucher un collaborateur.
+            </li>
+            <li>Vous avez besoin régulièrement ou ponctuellement d'une aide extérieure.</li>
+            <li>Vous faites face à un surcroît temporaire d'activité</li>
+            <li>Vous souhaitez maitriser vos coûts.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="faciliter-la-vie">
+          <h1>Vous faciliter la vie</h1>
+          <p>Après plus de 20 ans dans le salariat en tant que secrétaire, comptable, j'ai choisi en 2O18 de créer mon
+            activité d'assistante de gestion. <br>
+            J'interviens auprès des TPE/PME, artisans, afin de les accompagner dans la gestion quotidienne de leur
+            activité, à distance ou sur site.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="fonctionnement">
+          <h1>Le fonctionnement</h1>
+          <p> Lors d'une première prise de contact, je vous propose une évaluation de vos besoins. <br>
+            Ensuite, je vous fournis un devis. <br>
+            Après accord, j'interviens rapidement. A la fin de ma prestation, je vous transmets une facture (Tarifs non
+            soumis à TVA, art. 298B du CGI)</p>
+        </div>
+      </div>
+    </div><br><br><br><br><br><br>
+
+    <h1>Qui suis-je?</h1>
+
+    <p style="text-align: center; font-family: 'Poppins', sans-serif;">Je m'appelle Michelle Le Meur. En 2018, j'ai créé LMM Gestion, une micro-entreprise de gestion administrative.
+      <br>
+      Après un BTS Secrétariat de direction, j'ai débuté en tant qu'assistante commerciale. Désirant évoluer vers un
+      autre poste j'ai suivi une formation de comptabilité.
+      Progessivement, j'ai occupé des postes combinant ces compétences principalement dans les petites structures ou en
+      agence pour les plus grands groupes. <br>
+      Mais, mon envie d'être indépendante est devenue plus importante au fil du temps. J'ai franchi le pas et j'ai eu la
+      chance de trouver rapidement mes premiers clients.
+      Grâce au réseau, au hasard des rencontres, je collabore aujourd'hui avec plusieurs clients, très régulièrement,
+      dans des secteurs d'activité très différents. <br>
+      Parallèlement, à mes activités professionnelles, j'ai créé en 2016 avec mon compagnon, Yannick, une association
+      culturelle, Rire en Breizh.
+    </p>
+
+    </div>
+
+    <div class="contactPopup">
+
+    </div>
+
+  </main>
+
+  <br><br><br><br><br><br>
+
+  <footer>
+    <a class="mentions-legales" href="">Mentions légales</a>
+  </footer>
+
+  <script>
+    function openPopup() {
+      document.getElementById("contactPopup").style.display = "flex";
+    }
+    function closePopup() {
+      document.getElementById("contactPopup").style.display = "none";
+    }
+    function submitForm() {
+      closePopup();
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
